@@ -1,0 +1,16 @@
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
+  <meta charset="utf-8">
+  <title>Crear Personaje</title>
+  <base href="/ProyectoAngularFinal/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>*{font-family:Arial,sans-serif}body{background:linear-gradient(to right,#f71717,#9d11af)}.container-personaje{text-align:center;background:#0000004d;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+</style><link rel="stylesheet" href="styles-SYYH6SQ4.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-SYYH6SQ4.css"></noscript><style ng-app-id="ng">.seleccionada[_ngcontent-ng-c1617648335]   img[_ngcontent-ng-c1617648335], img[_ngcontent-ng-c1617648335]:hover{border:5px;border-style:solid}</style></head>
+<body><!--nghm--><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
+</script><script>window.__jsaction_bootstrap(document.body,"ng",["click"],[]);</script>
+  <app-root ng-version="19.1.5" ngh="2" ng-server-context="ssg"><main><router-outlet></router-outlet><app-personaje-raza ngh="1"><section class="container-personaje h-auto mt-3 rounded-3 shadow-lg"><section class="p-5 mb-5 h-auto"><app-selector-imegenes _nghost-ng-c1617648335 ngh="0"><div _ngcontent-ng-c1617648335 class="row"><div _ngcontent-ng-c1617648335 class="imagen col-lg-6" jsaction="click:;"><img _ngcontent-ng-c1617648335 width="350px" class="rounded-3 mt-3 mb-3 shadow-lg" src="imagenes/razaElfo.png" alt="Elfo"></div><div _ngcontent-ng-c1617648335 class="imagen col-lg-6" jsaction="click:;"><img _ngcontent-ng-c1617648335 width="350px" class="rounded-3 mt-3 mb-3 shadow-lg" src="imagenes/razaEnano.jpg" alt="Enano"></div><div _ngcontent-ng-c1617648335 class="imagen col-lg-6" jsaction="click:;"><img _ngcontent-ng-c1617648335 width="350px" class="rounded-3 mt-3 mb-3 shadow-lg" src="imagenes/razaOrco.png" alt="Orco"></div><div _ngcontent-ng-c1617648335 class="imagen col-lg-6" jsaction="click:;"><img _ngcontent-ng-c1617648335 width="350px" class="rounded-3 mt-3 mb-3 shadow-lg" src="imagenes/razaEspiritu.png" alt="Espiritu"></div><!----></div></app-selector-imegenes></section></section></app-personaje-raza><!----></main></app-root> 
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-CZELRPD4.js" type="module"></script>
+
+<script id="ng-state" type="application/json">{"__nghData__":[{"t":{"1":"t0"},"c":{"1":[{"i":"t0","r":1,"x":4}]}},{},{"c":{"1":[{"i":"c1717943060","r":1}]}}]}</script></body></html>`;

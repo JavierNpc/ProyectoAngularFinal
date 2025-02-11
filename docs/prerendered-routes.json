@@ -1,0 +1,11 @@
+{
+  "routes": {
+    "/ProyectoAngularFinal": {},
+    "/ProyectoAngularFinal/crearpersonaje": {},
+    "/ProyectoAngularFinal/crearpersonaje/estadisticas": {},
+    "/ProyectoAngularFinal/crearpersonaje/habilidades": {},
+    "/ProyectoAngularFinal/crearpersonaje/nombre": {},
+    "/ProyectoAngularFinal/crearpersonaje/raza": {},
+    "/ProyectoAngularFinal/visorpersonajes": {}
+  }
+}
