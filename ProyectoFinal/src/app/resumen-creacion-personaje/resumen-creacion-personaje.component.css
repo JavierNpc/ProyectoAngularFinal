@@ -1,0 +1,53 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin: 10px;
+  
+}
+
+h1{
+    align-self: start;
+    margin-left: 30px;
+    border: #201825;
+    border-style:solid ;
+    border-radius: 10px;
+    padding: 5px;
+}
+.cont{
+    border-top: 10px;
+    border-right: 10px;
+    border-style: solid;
+    border-color: #201825;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: xx-large;
+}
+
+p {
+    width: 80%;
+    padding: 16px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 4px solid #8d19bb;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+button {
+    background: #5a0c94;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #4b0a7f;
+}

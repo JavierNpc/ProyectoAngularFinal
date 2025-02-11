@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {  
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #f71717, #9d11af);
+
+}
+
+.container-personaje{
+  text-align: center;  
+  background: rgba(0, 0, 0, 0.3); /* Transparente */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+}

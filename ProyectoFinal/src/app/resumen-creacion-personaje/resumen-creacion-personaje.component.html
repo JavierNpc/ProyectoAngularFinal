@@ -1,0 +1,64 @@
+<section class="mb-5 mt-5">
+        
+    <h2 class="h1 m-auto fw-bold ">RESUMEN PERSONAJE</h2>
+
+    <section class=" row d-flex  justify-content-end">
+
+        <div class="col-12 ">
+            <div class=" col-12 cont rounded-4  ">
+                <h1 class="fw-bold ">Personal</h1>
+                <div class="w-100  ">
+                    <label>Nombre:</label>
+                    <p>{{formNombre.get('nombre')?.value}}</p> 
+                </div>
+                <div class="w-100 ">
+                    <label>Edad:</label>
+                    <p>{{formNombre.get('edad')?.value}}</p> 
+                </div>
+            </div>
+        
+            <div class=" col-12  cont rounded-4"> 
+                <h1 class="fw-bold mb-5">Raza</h1>
+                <div class=" w-100 ">
+                    <p>{{raza}}</p> 
+                </div>
+            </div>
+
+            <div class=" col-12  cont rounded-4"> 
+                <h1 class="fw-bold mb-5">Habilidad</h1>
+                <div class=" w-100 ">
+                    <p>{{habilidad}}</p> 
+                </div>
+            </div>
+
+            <div class="col-12  cont rounded-4  ">
+                <h1 class="h1 fw-bold ">Estadisticas</h1>
+    
+                <label>Vitalidad:</label>
+                <p> {{formEstadisticas.get('vit')?.value}} </p> 
+    
+                <label >Fuerza:</label>
+                <p> {{formEstadisticas.get('str')?.value}} </p>
+            
+                <label >Destreza:</label>
+                <p> {{formEstadisticas.get('des')?.value}} </p>
+            
+                <label >Resistencia:</label>
+                <p> {{formEstadisticas.get('res')?.value}} </p>
+            
+                <label >Arcano:</label>
+                <p> {{formEstadisticas.get('arc')?.value}} </p>
+    
+               
+            </div>
+        
+        </div>
+        
+        
+        
+    </section>
+
+    <button class="mt-5 mx-5 p-4 w-25" (click)="volver()"> Volver </button>
+    <button class="mt-5  mx-5 p-4 w-25"  [routerLink]="['/visorpersonajes']" (click)="CrearPersonaje() "> Crear Personaje</button>
+
+</section>

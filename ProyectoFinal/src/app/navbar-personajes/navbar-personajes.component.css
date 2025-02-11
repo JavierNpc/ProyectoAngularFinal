@@ -1,0 +1,26 @@
+nav{
+    background: rgba(0, 0, 0, 0.3); /* Transparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+}
+
+
+button{
+    color:rgb(0, 0, 0); 
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    pointer-events: fill;
+    cursor: pointer;
+    
+}
+
+.btn-seleccionado{
+    background-color: #450f8d;
+    color: white;
+}
+
+button:hover {
+    background-color: #666161;
+    color: white;
+}

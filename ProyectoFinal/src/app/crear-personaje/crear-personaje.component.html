@@ -1,0 +1,23 @@
+<section>
+    
+    <app-navbar></app-navbar>
+  
+    <section class="container h-auto mb-5 ">
+
+      <div [ngSwitch]="terminado">  
+        <div *ngSwitchCase="true">
+          <app-resumen-creacion-personaje> </app-resumen-creacion-personaje>
+        </div>
+        <div *ngSwitchCase="false" [ngSwitch]="conditionExpression">
+          <app-navbar-personajes></app-navbar-personajes>
+          <app-personaje-raza *ngSwitchCase="'raza'"> </app-personaje-raza>
+          <app-personaje-estadisticas *ngSwitchCase="'estadisticas'"> </app-personaje-estadisticas>
+          <app-personaje-habilidades *ngSwitchCase="'habilidades'"> </app-personaje-habilidades>
+          <app-personaje-nombre *ngSwitchCase="'nombre'"> </app-personaje-nombre>
+          <app-personaje-raza *ngSwitchDefault> </app-personaje-raza>
+        </div>
+      </div>
+    </section>
+    
+</section>
+

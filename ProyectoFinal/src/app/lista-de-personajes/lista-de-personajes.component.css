@@ -1,0 +1,20 @@
+.listing {
+    background: #5563c1;
+    padding-bottom: 30px;
+    border-color: black;
+    border: 5px;
+    border-style: solid;
+    border-radius: 15px;
+
+
+}
+
+.listing-heading {
+    color: white;
+    font-size: 50px;
+    padding: 10px 20px 0 20px;
+}
+
+
+
+

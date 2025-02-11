@@ -1,0 +1,8 @@
+<nav class="navbar mt-5 rounded-5 justify-content-around shadow-lg">
+    <button 
+        *ngFor="let item of botones" 
+        (click)="guardarNombre(item)" 
+        [ngClass]="{'btn-seleccionado': botonSeleccionado === item}">
+        {{ item }}
+    </button>
+</nav>
